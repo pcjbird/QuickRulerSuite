@@ -11,3 +11,46 @@
 
 # QuickRulerSuite
 ### A suite to quick create ruler control on iOS, which seems to be attractive. iOS上标尺控件的集合。
+
+
+##  安装 / Installation
+
+方法一：`QuickRulerSuite` is available through CocoaPods. To install it, simply add the following line to your Podfile:
+
+```
+pod 'QuickRulerSuite'
+```
+
+## 使用 / Usage
+  
+  ```
+ @property (weak, nonatomic) IBOutlet QuickSportsRuler *ruler;
+ ```
+  
+  ```
+ self.ruler.delegate = self;
+ self.ruler.rulerStyle.unitValue = 1000;
+ self.ruler.rulerStyle.minTickValue = -1000;
+ self.ruler.rulerStyle.maxTickValue = 30000;
+ self.ruler.rulerStyle.minLimitValue = 2000;
+ self.ruler.rulerStyle.maxLimitValue = 28000;
+ self.ruler.rulerStyle.stepSpacing = 16.0f;
+ self.ruler.rulerStyle.initValue = 8000;
+ [self.ruler setNeedsReloadStyle];
+ ```
+     
+ ```
+ -(void)quickSportsRulerDidScroll:(QuickSportsRuler *)ruler resolvedValue:(NSString *)value
+ {
+    self.valLabel.text = value;
+ }
+ ``` 
+  
+  
+  ## 关注我们 / Follow us
+  
+  <a href="https://itunes.apple.com/cn/app/iclock-一款满足-挑剔-的翻页时钟与任务闹钟/id1128196970?pt=117947806&ct=com.github.pcjbird.QuickRulerSuite&mt=8"><img src="https://github.com/pcjbird/AssetsExtractor/raw/master/iClock.gif" width="400" title="iClock - 一款满足“挑剔”的翻页时钟与任务闹钟"></a>
+  
+  [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=https://github.com/pcjbird/QuickRulerSuite)
+  [![Twitter Follow](https://img.shields.io/twitter/follow/pcjbird.svg?style=social)](https://twitter.com/pcjbird)
+

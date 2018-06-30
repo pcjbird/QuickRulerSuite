@@ -481,6 +481,11 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = "-fembed-bitcode";
+				OTHER_LDFLAGS = (
+					"-fembed-bitcode",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lessney.QuickRulerSuite;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -505,6 +510,11 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
+				OTHER_CFLAGS = "-fembed-bitcode";
+				OTHER_LDFLAGS = (
+					"-fembed-bitcode",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lessney.QuickRulerSuite;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
