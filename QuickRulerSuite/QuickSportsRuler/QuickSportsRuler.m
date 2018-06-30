@@ -12,7 +12,7 @@
 #define WIDTH ([UIScreen mainScreen].bounds.size.width)
 #define WIDTH6 375.0
 #define XX_6(value)     (1.0 * (value) * WIDTH / WIDTH6)
-#define QUICKSPORTSRULER_BUNDLE [NSBundle bundleWithPath:[[NSBundle bundleForClass:[QuickSportsRuler class]] pathForResource:@"QuickSportsRuler" ofType:@"bundle"]]
+#define QUICKSPORTSRULER_BUNDLE [NSBundle bundleWithPath:[[NSBundle bundleForClass:[QuickSportsRuler class]] pathForResource:@"QuickRulerSuite" ofType:@"bundle"]]
 
 #define kFloatCompareDelta    0.1
 

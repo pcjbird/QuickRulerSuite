@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = "QuickRulerSuite"
-    s.version          = "1.0.0"
+    s.version          = "1.0.1"
     s.summary          = "A suite to quick create ruler control on iOS, which seems to be attractive. iOS上标尺控件的集合。"
     s.description      = <<-DESC
     A suite to quick create ruler control on iOS, which seems to be attractive. iOS上标尺控件的集合，该项目支持 Cocoapods 的 subspec。
