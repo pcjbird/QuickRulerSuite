@@ -26,8 +26,8 @@ Pod::Spec.new do |s|
     s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
 
     s.subspec 'QuickSportsRuler' do |ss|
-        ss.source_files = 'QuickSportsRuler/*.{h,m}'
-        ss.public_header_files = 'QuickSportsRuler/QuickSportsRuler.h', 'QuickSportsRuler/QuickSportsRulerStyle.h'
+        ss.source_files = 'QuickRulerSuite/QuickSportsRuler/*.{h,m}'
+        ss.public_header_files = 'QuickRulerSuite/QuickSportsRuler/QuickSportsRuler.h', 'QuickRulerSuite/QuickSportsRuler/QuickSportsRulerStyle.h'
     end
 
 end
