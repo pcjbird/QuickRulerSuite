@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		89DA886720E7EC6E00971770 /* QuickRulerSuite-Universal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 89DA886820E7EC6E00971770 /* Build configuration list for PBXAggregateTarget "QuickRulerSuite-Universal" */;
+			buildPhases = (
+				89DA886B20E7EC8F00971770 /* ShellScript */,
+				89DA886C20E7ECCD00971770 /* ShellScript */,
+				89DA886D20E7ECE100971770 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "QuickRulerSuite-Universal";
+			productName = "QuickRulerSuite-Universal";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		89DA887220E7EFFD00971770 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 89DA886F20E7EFFD00971770 /* LICENSE */; };
+		89DA887320E7EFFD00971770 /* QuickRulerSuite.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 89DA887020E7EFFD00971770 /* QuickRulerSuite.podspec */; };
+		89DA887420E7EFFD00971770 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 89DA887120E7EFFD00971770 /* README.md */; };
+		89ECB09220E7499200004BAF /* QuickRulerSuite.h in Headers */ = {isa = PBXBuildFile; fileRef = 89ECB09020E7499200004BAF /* QuickRulerSuite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89ECB09B20E74A3500004BAF /* QuickSportsRulerStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 89ECB09920E74A3500004BAF /* QuickSportsRulerStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89ECB09C20E74A3500004BAF /* QuickSportsRulerStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 89ECB09A20E74A3500004BAF /* QuickSportsRulerStyle.m */; };
+		89ECB09F20E7550000004BAF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89ECB09E20E754FF00004BAF /* CoreGraphics.framework */; };
+		89ECB0A120E7550500004BAF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89ECB0A020E7550500004BAF /* UIKit.framework */; };
+		89ECB0A320E7550B00004BAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89ECB0A220E7550B00004BAF /* Foundation.framework */; };
+		89ECB0A620E757E000004BAF /* QuickSportsRuler.h in Headers */ = {isa = PBXBuildFile; fileRef = 89ECB0A420E757E000004BAF /* QuickSportsRuler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89ECB0A720E757E000004BAF /* QuickSportsRuler.m in Sources */ = {isa = PBXBuildFile; fileRef = 89ECB0A520E757E000004BAF /* QuickSportsRuler.m */; };
+		89ECB0B420E760EE00004BAF /* marker@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89ECB0B220E760EE00004BAF /* marker@3x.png */; };
+		89ECB0B520E760EE00004BAF /* marker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 89ECB0B320E760EE00004BAF /* marker@2x.png */; };
+		89ECB0B820E7B38600004BAF /* NSString+QuickSportsRulerSeperator.h in Headers */ = {isa = PBXBuildFile; fileRef = 89ECB0B620E7B38600004BAF /* NSString+QuickSportsRulerSeperator.h */; };
+		89ECB0B920E7B38600004BAF /* NSString+QuickSportsRulerSeperator.m in Sources */ = {isa = PBXBuildFile; fileRef = 89ECB0B720E7B38600004BAF /* NSString+QuickSportsRulerSeperator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		89DA886F20E7EFFD00971770 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		89DA887020E7EFFD00971770 /* QuickRulerSuite.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = QuickRulerSuite.podspec; sourceTree = "<group>"; };
+		89DA887120E7EFFD00971770 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		89ECB08D20E7499200004BAF /* QuickRulerSuite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QuickRulerSuite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89ECB09020E7499200004BAF /* QuickRulerSuite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickRulerSuite.h; sourceTree = "<group>"; };
+		89ECB09120E7499200004BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89ECB09920E74A3500004BAF /* QuickSportsRulerStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickSportsRulerStyle.h; sourceTree = "<group>"; };
+		89ECB09A20E74A3500004BAF /* QuickSportsRulerStyle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickSportsRulerStyle.m; sourceTree = "<group>"; };
+		89ECB09E20E754FF00004BAF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		89ECB0A020E7550500004BAF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		89ECB0A220E7550B00004BAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		89ECB0A420E757E000004BAF /* QuickSportsRuler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickSportsRuler.h; sourceTree = "<group>"; };
+		89ECB0A520E757E000004BAF /* QuickSportsRuler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickSportsRuler.m; sourceTree = "<group>"; };
+		89ECB0AC20E7603200004BAF /* QuickRulerSuite.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickRulerSuite.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		89ECB0AE20E7603200004BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89ECB0B220E760EE00004BAF /* marker@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker@3x.png"; sourceTree = "<group>"; };
+		89ECB0B320E760EE00004BAF /* marker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker@2x.png"; sourceTree = "<group>"; };
+		89ECB0B620E7B38600004BAF /* NSString+QuickSportsRulerSeperator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+QuickSportsRulerSeperator.h"; sourceTree = "<group>"; };
+		89ECB0B720E7B38600004BAF /* NSString+QuickSportsRulerSeperator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+QuickSportsRulerSeperator.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89ECB08920E7499200004BAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89ECB0A320E7550B00004BAF /* Foundation.framework in Frameworks */,
+				89ECB0A120E7550500004BAF /* UIKit.framework in Frameworks */,
+				89ECB09F20E7550000004BAF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89ECB0A920E7603200004BAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89DA886E20E7EFE800971770 /* metadata */ = {
+			isa = PBXGroup;
+			children = (
+				89DA887020E7EFFD00971770 /* QuickRulerSuite.podspec */,
+				89DA886F20E7EFFD00971770 /* LICENSE */,
+				89DA887120E7EFFD00971770 /* README.md */,
+			);
+			name = metadata;
+			sourceTree = "<group>";
+		};
+		89ECB08320E7499200004BAF = {
+			isa = PBXGroup;
+			children = (
+				89DA886E20E7EFE800971770 /* metadata */,
+				89ECB08F20E7499200004BAF /* QuickRulerSuite */,
+				89ECB0AD20E7603200004BAF /* QuickRulerBundles */,
+				89ECB08E20E7499200004BAF /* Products */,
+				89ECB09D20E754FF00004BAF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		89ECB08E20E7499200004BAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89ECB08D20E7499200004BAF /* QuickRulerSuite.framework */,
+				89ECB0AC20E7603200004BAF /* QuickRulerSuite.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89ECB08F20E7499200004BAF /* QuickRulerSuite */ = {
+			isa = PBXGroup;
+			children = (
+				89ECB09020E7499200004BAF /* QuickRulerSuite.h */,
+				89ECB09820E749F500004BAF /* QuickSportsRuler */,
+				89ECB09120E7499200004BAF /* Info.plist */,
+			);
+			path = QuickRulerSuite;
+			sourceTree = "<group>";
+		};
+		89ECB09820E749F500004BAF /* QuickSportsRuler */ = {
+			isa = PBXGroup;
+			children = (
+				89ECB09920E74A3500004BAF /* QuickSportsRulerStyle.h */,
+				89ECB09A20E74A3500004BAF /* QuickSportsRulerStyle.m */,
+				89ECB0A420E757E000004BAF /* QuickSportsRuler.h */,
+				89ECB0A520E757E000004BAF /* QuickSportsRuler.m */,
+				89ECB0B620E7B38600004BAF /* NSString+QuickSportsRulerSeperator.h */,
+				89ECB0B720E7B38600004BAF /* NSString+QuickSportsRulerSeperator.m */,
+			);
+			path = QuickSportsRuler;
+			sourceTree = "<group>";
+		};
+		89ECB09D20E754FF00004BAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89ECB0A220E7550B00004BAF /* Foundation.framework */,
+				89ECB0A020E7550500004BAF /* UIKit.framework */,
+				89ECB09E20E754FF00004BAF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89ECB0AD20E7603200004BAF /* QuickRulerBundles */ = {
+			isa = PBXGroup;
+			children = (
+				89ECB0B320E760EE00004BAF /* marker@2x.png */,
+				89ECB0B220E760EE00004BAF /* marker@3x.png */,
+				89ECB0AE20E7603200004BAF /* Info.plist */,
+			);
+			path = QuickRulerBundles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		89ECB08A20E7499200004BAF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89ECB0B820E7B38600004BAF /* NSString+QuickSportsRulerSeperator.h in Headers */,
+				89ECB09B20E74A3500004BAF /* QuickSportsRulerStyle.h in Headers */,
+				89ECB0A620E757E000004BAF /* QuickSportsRuler.h in Headers */,
+				89ECB09220E7499200004BAF /* QuickRulerSuite.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		89ECB08C20E7499200004BAF /* QuickRulerSuite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89ECB09520E7499200004BAF /* Build configuration list for PBXNativeTarget "QuickRulerSuite" */;
+			buildPhases = (
+				89ECB08820E7499200004BAF /* Sources */,
+				89ECB08920E7499200004BAF /* Frameworks */,
+				89ECB08A20E7499200004BAF /* Headers */,
+				89ECB08B20E7499200004BAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickRulerSuite;
+			productName = QuickRulerSuite;
+			productReference = 89ECB08D20E7499200004BAF /* QuickRulerSuite.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		89ECB0AB20E7603200004BAF /* QuickRulerSuiteBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89ECB0AF20E7603200004BAF /* Build configuration list for PBXNativeTarget "QuickRulerSuiteBundle" */;
+			buildPhases = (
+				89ECB0A820E7603200004BAF /* Sources */,
+				89ECB0A920E7603200004BAF /* Frameworks */,
+				89ECB0AA20E7603200004BAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickRulerSuiteBundle;
+			productName = QuickRulerBundles;
+			productReference = 89ECB0AC20E7603200004BAF /* QuickRulerSuite.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89ECB08420E7499200004BAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Zero Status";
+				TargetAttributes = {
+					89DA886720E7EC6E00971770 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					89ECB08C20E7499200004BAF = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					89ECB0AB20E7603200004BAF = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 89ECB08720E7499200004BAF /* Build configuration list for PBXProject "QuickRulerSuite" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 89ECB08320E7499200004BAF;
+			productRefGroup = 89ECB08E20E7499200004BAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89ECB08C20E7499200004BAF /* QuickRulerSuite */,
+				89ECB0AB20E7603200004BAF /* QuickRulerSuiteBundle */,
+				89DA886720E7EC6E00971770 /* QuickRulerSuite-Universal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89ECB08B20E7499200004BAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89DA887420E7EFFD00971770 /* README.md in Resources */,
+				89DA887320E7EFFD00971770 /* QuickRulerSuite.podspec in Resources */,
+				89DA887220E7EFFD00971770 /* LICENSE in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89ECB0AA20E7603200004BAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89ECB0B520E760EE00004BAF /* marker@2x.png in Resources */,
+				89ECB0B420E760EE00004BAF /* marker@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		89DA886B20E7EC8F00971770 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "FMK_NAME=${PRODUCT_NAME}\n\n# Install dir will be the final output to the framework.\n\n# The following line create it in the root folder of the current project.\n\nINSTALL_DIR=${SRCROOT}/products/${FMK_NAME}.framework\n\n# Working dir will be deleted after the framework creation.\n\nWRK_DIR=build\n\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\n\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n\n# -configuration ${CONFIGURATION}\n\n# Clean and Building both architectures.\n\nxcodebuild -workspace \"${FMK_NAME}\".xcworkspace -scheme \"${FMK_NAME}\" -configuration \"Release\" -sdk iphoneos clean build\n\nxcodebuild -workspace \"${FMK_NAME}\".xcworkspace -scheme \"${FMK_NAME}\" -configuration \"Release\" -sdk iphonesimulator clean build\n\n# Cleaning the oldest.\n\nif [ -d \"${INSTALL_DIR}\" ]\n\nthen\n\nrm -rf \"${INSTALL_DIR}\"\n\nfi\n\nmkdir -p \"${INSTALL_DIR}\"\n\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/\"\n\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\n\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/${FMK_NAME}\"\n\n";
+		};
+		89DA886C20E7ECCD00971770 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "FMK_NAME=${PRODUCT_NAME}\n\n# Working dir will be deleted after the framework creation.\n\nWRK_DIR=build\n\n#Resource bundle\nBUNDLE_TARGET_NAME=${FMK_NAME}Bundle\nBUNDLEDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.bundle\nINSTALL_BUNDLE_DIR=${SRCROOT}/products/${FMK_NAME}.bundle\n\n#build resource\nxcodebuild -configuration \"Release\" -target \"${BUNDLE_TARGET_NAME}\" -sdk iphoneos clean build\n\nditto \"${BUNDLEDEVICE_DIR}\" \"${INSTALL_BUNDLE_DIR}\"\n\nrm -f \"${INSTALL_BUNDLE_DIR}/${FMK_NAME}\"";
+		};
+		89DA886D20E7ECE100971770 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "WRK_DIR=build\nINSTALL_DIR=${SRCROOT}/products\n\nrm -r \"${WRK_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89ECB08820E7499200004BAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89ECB09C20E74A3500004BAF /* QuickSportsRulerStyle.m in Sources */,
+				89ECB0A720E757E000004BAF /* QuickSportsRuler.m in Sources */,
+				89ECB0B920E7B38600004BAF /* NSString+QuickSportsRulerSeperator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89ECB0A820E7603200004BAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		89DA886920E7EC6E00971770 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = QuickRulerSuite;
+			};
+			name = Debug;
+		};
+		89DA886A20E7EC6E00971770 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = QuickRulerSuite;
+			};
+			name = Release;
+		};
+		89ECB09320E7499200004BAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		89ECB09420E7499200004BAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		89ECB09620E7499200004BAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = QuickRulerSuite/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lessney.QuickRulerSuite;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89ECB09720E7499200004BAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = QuickRulerSuite/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lessney.QuickRulerSuite;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		89ECB0B020E7603200004BAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = NO;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = QuickRulerBundles/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lessney.QuickRulerBundles;
+				PRODUCT_NAME = QuickRulerSuite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		89ECB0B120E7603200004BAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = NO;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = QuickRulerBundles/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lessney.QuickRulerBundles;
+				PRODUCT_NAME = QuickRulerSuite;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89DA886820E7EC6E00971770 /* Build configuration list for PBXAggregateTarget "QuickRulerSuite-Universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89DA886920E7EC6E00971770 /* Debug */,
+				89DA886A20E7EC6E00971770 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89ECB08720E7499200004BAF /* Build configuration list for PBXProject "QuickRulerSuite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89ECB09320E7499200004BAF /* Debug */,
+				89ECB09420E7499200004BAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89ECB09520E7499200004BAF /* Build configuration list for PBXNativeTarget "QuickRulerSuite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89ECB09620E7499200004BAF /* Debug */,
+				89ECB09720E7499200004BAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89ECB0AF20E7603200004BAF /* Build configuration list for PBXNativeTarget "QuickRulerSuiteBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89ECB0B020E7603200004BAF /* Debug */,
+				89ECB0B120E7603200004BAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89ECB08420E7499200004BAF /* Project object */;
+}
