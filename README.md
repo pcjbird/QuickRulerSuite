@@ -12,6 +12,14 @@
 # QuickRulerSuite
 ### A suite to quick create ruler control on iOS, which seems to be attractive. iOS上标尺控件的集合。
 
+## 特性 / Features
+
+1. 快速创建一个标尺控件。
+2. 支持设置最小最大刻度，支持设置最小最大限制值，支持自定义标尺样式。
+
+## 演示 / Demo
+
+<p align="center"><img src="demo.gif" title="demo"></p>
 
 ##  安装 / Installation
 
