@@ -280,7 +280,7 @@
     CGFloat rulerHalfWidth = _rulerWidth / 2.f;
     self.contentInset = UIEdgeInsetsMake(0, rulerHalfWidth, 0, rulerHalfWidth);
     self.contentSize = CGSizeMake(_totalTicks * _style.stepSpacing, _rulerHeight);
-     self.contentOffset = CGPointMake((_style.stepSpacing * (self.currentTick)) - rulerHalfWidth, 0);
+    self.contentOffset = CGPointMake((_style.stepSpacing * (self.currentTick)) - rulerHalfWidth, 0);
 }
 @end
 
@@ -391,7 +391,9 @@
 {
     [super layoutSubviews];
     self.scrollView.frame = CGRectMake(0, self.frame.size.height - XX_6(50), self.frame.size.width, XX_6(50));
+    [self.scrollView updateUI];
     self.marker.center = CGPointMake(CGRectGetWidth(self.frame)/2.0f, CGRectGetHeight(self.frame) - (CGRectGetHeight(self.marker.frame)/2.0f));
+    [self p_drawBottomLineView];
 }
 
 -(QuickSportsRulerScrollView *)scrollView
