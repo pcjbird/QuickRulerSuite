@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = "QuickRulerSuite"
-    s.version          = "1.0.2"
+    s.version          = "1.0.3"
     s.summary          = "A suite to quick create ruler control on iOS, which seems to be attractive. iOS上标尺控件的集合。"
     s.description      = <<-DESC
     A suite to quick create ruler control on iOS, which seems to be attractive. iOS上标尺控件的集合，该项目支持 Cocoapods 的 subspec。
@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
     s.source_files     = 'QuickRulerSuite/QuickRulerSuite.h'
     s.public_header_files = 'QuickRulerSuite/QuickRulerSuite.h'
     s.resource_bundles = {
-        'QuickRulerSuite' => ['QuickRulerBundles/*.*'],
+        'QuickRulerSuite' => ['QuickRulerBundles/*.{png}'],
     }
 
     s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }

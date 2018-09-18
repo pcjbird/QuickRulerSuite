@@ -8,6 +8,9 @@
 //  框架名称:QuickRulerSuite
 //  框架功能:A suite to quick create ruler control on iOS, which seems to be attractive. iOS上标尺控件的集合。
 //  修改记录:
+//     pcjbird    2018-09-18  Version:1.0.3 Build:201809180001
+//                            1.xcode 10 support
+//
 //     pcjbird    2018-07-08  Version:1.0.2 Build:201807080001
 //                            1.修复屏幕设配的问题
 //
